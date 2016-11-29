@@ -102,3 +102,21 @@ var .chunk = function (array, size) {
   return lowerString.join();
 }
 
+//.words
+String.prototype.words = function(input){
+  return (input.split(" "));
+}
+
+// .nth 
+Array.prototype.nth = function (array, number) {
+  if (number === NaN){
+    Alert("You didn't put a number!");
+  } else {
+    return array[number - 1];
+  }
+}
+
+Array.prototype.nth = (array, number) =>
+  number === NaN ? Alert("You didn't put a number!"):array[number - 1]
+  
+  
