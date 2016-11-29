@@ -1,1 +1,12 @@
+.chunk(array, size) 
 
+Creates an array of elements split into groups the length of size. If array can't be split evenly, the final chunk will be the remaining elements.
+
+var array1 = [1, 2, 3, 4, 5]; 
+
+var .chunk = function (array, size) { 
+  
+  create initial array; 
+  append array to initial array until charAt (size -1) 
+  then create another array 
+  
