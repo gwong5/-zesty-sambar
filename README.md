@@ -2,4 +2,23 @@ hamin what is the good job ladder
 
 Functions to explain
 
-.chunk .join .drop .nth .take .zip .forEach .map .sortBy .once .repeat .wrap Math.floor Math.max .snakecase .capitolize .toLowerCase .unescape .tirm .words
+.chunk
+.join 
+.drop
+.nth - started 
+.take 
+.zip 
+.forEach
+.map
+.sortBy 
+.once 
+.repeat 
+.wrap
+Math.floor
+Math.max 
+.snakecase 
+.capitolize
+.toLowerCase - started awiating testing 
+.unescape 
+.tirm 
+.words -Started 
