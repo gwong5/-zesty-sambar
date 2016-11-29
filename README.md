@@ -3,7 +3,7 @@ hamin what is the good job ladder
 Functions to explain
 
 .chunk
-.join 
+.join started 
 .drop
 .nth - started 
 .take 
