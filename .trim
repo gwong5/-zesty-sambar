@@ -1,0 +1,4 @@
+function trim (string, parameter) {
+  string = string.replace(parameter, '')
+  return string
+}
