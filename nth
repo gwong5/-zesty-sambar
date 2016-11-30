@@ -1,0 +1,18 @@
+Array.prototype.nth = function (array, number) {
+  if (number === NaN){
+    Alert("You didn't put a number!");
+  } else {
+    return array[number];
+  }
+}
+
+Array.prototype.nth = (array, number) =>
+  number === NaN ? Alert("You didn't put a number!"):array[number]
+
+var hello = function (array, number) {
+  if (number === NaN){
+    Alert("You didn't put a number!");
+  } else {
+    return array[number];
+  }
+}
