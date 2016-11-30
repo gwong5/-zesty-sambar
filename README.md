@@ -4,10 +4,10 @@ Functions to explain
 
 .chunk
 .join started 
-.drop - started 
+.drop - started
 .nth - started 
-.take 
-.zip 
+.take - started 
+.zip - started 
 .forEach
 .map
 .sortBy started
