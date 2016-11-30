@@ -1,4 +1,4 @@
-hamin what is the good job ladder
+
 
 Functions to explain
 
