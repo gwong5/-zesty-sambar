@@ -11,7 +11,7 @@ Functions to explain
 .forEach- started
 .map- started
 .sortBy- started
-.once 
+.once - started 
 .repeat testing
 .wrap
 Math.floor
