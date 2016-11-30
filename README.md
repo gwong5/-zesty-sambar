@@ -10,7 +10,7 @@ Functions to explain
 .zip - started 
 .forEach- started
 .map- started
-.sortBy started
+.sortBy- started
 .once 
 .repeat testing
 .wrap
