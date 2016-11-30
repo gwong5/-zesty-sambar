@@ -4,7 +4,7 @@ Functions to explain
 
 .chunk
 .join started 
-.drop
+.drop - started 
 .nth - started 
 .take 
 .zip 
