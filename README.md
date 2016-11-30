@@ -13,7 +13,7 @@ Functions to explain
 .sortBy- started
 .once - started 
 .repeat testing
-.wrap- started 
+.wrap- started _____ REALLY HARD 
 Math.floor
 Math.max 
 .snakecase 
