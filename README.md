@@ -17,8 +17,8 @@ Functions to explain
 Math.floor- started 
 Math.max 
 .snakecase- started  
-.capitalize started
+.capitalize complete
 .toLowerCase - started awiating testing 
-.unescape 
+.unescape started
 .trim started
 .words -Started 
