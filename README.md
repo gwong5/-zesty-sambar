@@ -10,9 +10,9 @@ Functions to explain
 .zip 
 .forEach
 .map
-.sortBy 
+.sortBy started
 .once 
-.repeat 
+.repeat testing
 .wrap
 Math.floor
 Math.max 
@@ -20,5 +20,5 @@ Math.max
 .capitolize
 .toLowerCase - started awiating testing 
 .unescape 
-.tirm 
+.trim 
 .words -Started 
