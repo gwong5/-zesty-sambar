@@ -14,9 +14,9 @@ Functions to explain
 .once - started 
 .repeat testing
 .wrap- started _____ REALLY HARD 
-Math.floor
+Math.floor- started 
 Math.max 
-.snakecase 
+.snakecase- started  
 .capitolize
 .toLowerCase - started awiating testing 
 .unescape 
