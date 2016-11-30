@@ -8,8 +8,8 @@ Functions to explain
 .nth - started 
 .take - started 
 .zip - started 
-.forEach
-.map
+.forEach- started
+.map- started
 .sortBy started
 .once 
 .repeat testing
