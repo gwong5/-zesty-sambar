@@ -1,7 +1,9 @@
-Function.prototype.once = function(run){
-  this.invoked = 0;
-  if(this.invoked = 0){
-    return run;
-    this.invoked++;
-  }
- }
+Function.prototype.once = function(fn) {
+   var result;
+   return function() {
+     if(result) {
+       return result;
+     }
+     result = fn();
+     return result;
+   }
