@@ -20,5 +20,5 @@ Math.max
 .capitolize
 .toLowerCase - started awiating testing 
 .unescape 
-.trim 
+.trim started
 .words -Started 
