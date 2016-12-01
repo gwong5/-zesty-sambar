@@ -12,7 +12,7 @@ Functions to explain
 .map- started
 .sortBy- started
 .once - started 
-.repeat testing
+.repeat testing...................................WORKS!
 .wrap- started _____ REALLY HARD 
 Math.floor- started 
 Math.max 
