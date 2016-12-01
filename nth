@@ -8,3 +8,18 @@ Array.prototype.nth = function (array, number) {
     return array[num];
   }
 }
+
+
+Array.prototype.nth = function (array, number) {
+  let nIndex = Math.abs(num)
+  let arr = array
+  if(number < 0) {arr.reverse() && nIndex - 1}
+
+
+  if (num === NaN){
+    Alert("You didn't put a number!");
+  } else {
+    return arr[nIndex];
+  }
+}
+var r = [1, 2, 3, 4, 5]
