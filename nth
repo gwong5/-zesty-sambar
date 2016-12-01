@@ -1,25 +1,11 @@
-Array.prototype.nth = function (array, number) {
-  var num = number
-  if(number < 0) {array.reverse() && num = Math.abs(number) && num - 1; }
-
-  if (num=== NaN){
-    Alert("You didn't put a number!");
-  } else {
-    return array[num];
-  }
+Array.prototype.nth = function(array, number) {
+  let arrLength = array.length;
+  if(number === undefined) {number = 0};
+  if (Math.abs(number) > arrLength) {
+    return undefined;
+  }else if(number < 0) {
+    return array[arrLength - Math.abs(number)];
+  }else {
+    return array[number];
+    }
 }
-
-
-Array.prototype.nth = function (array, number) {
-  let nIndex = Math.abs(number)
-  let arr = array
-  if(number < 0) {arr.reverse() && nIndex - 1}
-
-
-  if (num === NaN){
-    Alert("You didn't put a number!");
-  } else {
-    return arr[nIndex];
-  }
-}
-var r = [1, 2, 3, 4, 5]
