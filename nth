@@ -1,18 +1,10 @@
 Array.prototype.nth = function (array, number) {
-  if (number === NaN){
+  var num = number
+  if(number < 0) {array.reverse() && num = Math.abs(number) && num - 1; }
+
+  if (num=== NaN){
     Alert("You didn't put a number!");
   } else {
-    return array[number];
-  }
-}
-
-Array.prototype.nth = (array, number) =>
-  number === NaN ? Alert("You didn't put a number!"):array[number]
-
-var hello = function (array, number) {
-  if (number === NaN){
-    Alert("You didn't put a number!");
-  } else {
-    return array[number];
+    return array[num];
   }
 }
