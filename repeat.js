@@ -1,4 +1,4 @@
-String.prototype.repeat = function(string, times) {
+var repeat = function(string, times) {
   let stringArr = [];
   if(times < 0) {times = 0};
   if (times > 0) {
@@ -8,3 +8,5 @@ String.prototype.repeat = function(string, times) {
     }
   return stringArr.join('');
   }
+
+module.exports = repeat;
