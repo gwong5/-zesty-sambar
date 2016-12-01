@@ -11,7 +11,7 @@ Array.prototype.nth = function (array, number) {
 
 
 Array.prototype.nth = function (array, number) {
-  let nIndex = Math.abs(num)
+  let nIndex = Math.abs(number)
   let arr = array
   if(number < 0) {arr.reverse() && nIndex - 1}
 
