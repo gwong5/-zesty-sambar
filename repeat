@@ -8,3 +8,4 @@ String.prototype.repeat = function(string, times){
     }
   return stringArr.toString();
   }
+
