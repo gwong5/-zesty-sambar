@@ -1,0 +1,6 @@
+Object.prototype.forEach = function(object, toDo){
+  var k = object.length;
+  for(let i = 0; i < k; i++) {
+  return toDo(object[i]);
+  }
+}

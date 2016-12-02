@@ -1,0 +1,16 @@
+Math.prototype.floor = function(number, percision){
+  var num = number;
+  if(!percision) {percisioin = 0};
+  var numString = num.toString();
+  var numSL = numString.length;
+  var numDecimal = numString.indexOf(".");
+  var imNumString;
+
+  for(let i = 0; i < numSL; i++){
+    if(numString[i] === numDecimal){
+      imNumString = numString.slice(0, [i + percision + 1]);
+      }
+    }
+    return imNumString;
+
+}

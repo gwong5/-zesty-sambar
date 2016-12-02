@@ -1,0 +1,39 @@
+Array.prototype.join = function (array, separator){
+  let arrayString = [];
+  if (separator === undefined){let separator = " ";};
+  for (var i = 0, j = array.length; i < j; i++){
+    arrayString.push(array[i], separator);
+  }
+  arrayString.toString();
+  for(var i = 0, j = arrayString.length; i < j; i++){
+    if (arrayString.charAt(i) === ",") {
+    arrayString = arrayString.substring(0, i) + arrayString.substring(i + 1)
+    } }
+
+  return(arrayString)
+}
+
+
+
+
+var array1 = [1,2,3];
+
+array1.join() -> "123"
+array1.join(array, _) "1,_2,_3"
+
+
+var hihi= function (array, separator){
+  let arrayString = [];
+  if (separator === undefined){let separator = " ";};
+  for (var i = 0, j = array.length; i < j; i++){
+    arrayString.push(array[i], separator);
+  }
+  arrayString.toString();
+  for(var i = 0, j = arrayString.length; i < j; i++){
+    if (arrayString.charAt(i) === "," ) {
+    arrayString = arrayString.substring(0, i) + arrayString.substring(i + 1)
+    } }
+
+  return(arrayString)
+}
+}

@@ -1,0 +1,54 @@
+Array.prototype.chunk
+
+
+var t = function(array, size) {
+  let counter = 0;
+  let whichArray = ((Math.floor(counter/ size)) * size);
+  let arrayL = array.length;
+  let numArrays = Math.floor(arrayL / size);
+  if (arrayL / size !% 0) {numArrays += 1;};
+  let finalArray = [];
+  for(let i = 0; i < numArrays; i++) {
+    finalArray.push([]);
+  };
+
+  for(let i = 0; i < arrayL; i++) {
+    finalArray[Math.floor(i / size)].push(array.slice((0 + whichArray, size + whichArray));
+    counter++;
+
+  }
+return finalArray;
+
+}
+
+
+
+var r = [1, 2, 3, 4, 5];
+
+
+
+var chunk = function(array, size) {
+let papaArray = []
+
+  while (array.length > 0) {
+    for (let i = 0; i < array.length; i++){
+      let babyArray = []
+      if (i > size) {
+        babyArray.push(array.slice(0, i));
+      } else if (babyArray.length = 1) {
+        papaArray.push(babyArray);
+        i = 0;
+      }
+
+  }}}
+
+      var r = [1,2,3,4]
+
+      //push first item to babyArray
+      //slice first item off of intake array
+      //
+    }
+    //push baby to papa
+  }
+  //return papa
+//

@@ -1,0 +1,5 @@
+" fred barney & pebbles"---> ["fred", "barney", "pebbles"];
+
+String.prototype.words = function(input){
+  return (input.split(" "));
+}
