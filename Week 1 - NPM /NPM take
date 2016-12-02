@@ -1,4 +1,0 @@
-Array.prototype.take = function(array, number) {
-  if(number === undefined){number = 1}
-  array.slice(0, number)
-}
