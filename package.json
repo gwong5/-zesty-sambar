@@ -2,7 +2,7 @@
   "name": "npm-modules-js-functions",
   "version": "1.0.0",
   "scripts": {
-    "test": "mocha"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",

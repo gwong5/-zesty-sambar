@@ -1,4 +1,4 @@
-const {capitalize} = require(./capitalize);
+const {capitalize} = require('../capitalize');
 const {expect} = require('chai');
 
 describe('capitalize the first letter of a string', function() {

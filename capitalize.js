@@ -3,4 +3,4 @@ var capitalize = function (string) {
   return lower.charAt(0).toUpperCase() + lower.slice(1)
 }
 
-module.exports = capitalize;
+module.exports = { capitalize };
