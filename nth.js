@@ -1,4 +1,4 @@
-Array.prototype.nth = function(array, number) {
+var nth = function(array, number) {
   let arrLength = array.length;
   if(number === undefined) {number = 0};
   if (Math.abs(number) > arrLength) {
@@ -9,3 +9,5 @@ Array.prototype.nth = function(array, number) {
     return array[number];
     }
 }
+
+module.exports = nth;

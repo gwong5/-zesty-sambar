@@ -1,4 +1,4 @@
-String.prototype.toLowerCase = function(stringToChange){
+var toLowerCase = function(stringToChange){
   var lowerString = [];
   for(var i =0 ; i < stringToChange.length; i++){
     switch(stringToChange.charAt(i)) {
@@ -86,3 +86,4 @@ String.prototype.toLowerCase = function(stringToChange){
     }
   return lowerString.join();
 }
+module.exports = toLowerCase;

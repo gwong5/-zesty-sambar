@@ -1,4 +1,4 @@
-Function.prototype.once = function(fn) {
+ var once = function(fn) {
    var result;
    return function() {
      if(result) {
@@ -7,3 +7,5 @@ Function.prototype.once = function(fn) {
      result = fn();
      return result;
    }
+
+module.exports = once;
