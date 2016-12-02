@@ -1,5 +1,8 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'test' ]
+1 verbose cli [ '/usr/local/Cellar/node/7.2.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'test' ]
 2 info using npm@3.10.9
 3 info using node@v7.2.0
 4 verbose run-script [ 'pretest', 'test', 'posttest' ]
@@ -7,8 +10,8 @@
 6 silly lifecycle npm-modules-js-functions@1.0.0~pretest: no script for pretest, continuing
 7 info lifecycle npm-modules-js-functions@1.0.0~test: npm-modules-js-functions@1.0.0
 8 verbose lifecycle npm-modules-js-functions@1.0.0~test: unsafe-perm in lifecycle true
-9 verbose lifecycle npm-modules-js-functions@1.0.0~test: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/jhallman5/Desktop/Coding/zesty-sambar/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
-10 verbose lifecycle npm-modules-js-functions@1.0.0~test: CWD: /Users/jhallman5/Desktop/Coding/zesty-sambar
+9 verbose lifecycle npm-modules-js-functions@1.0.0~test: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/akuma/repos/-zesty-sambar/node_modules/.bin:/usr/local/Cellar/node/7.2.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+10 verbose lifecycle npm-modules-js-functions@1.0.0~test: CWD: /Users/akuma/repos/-zesty-sambar
 11 silly lifecycle npm-modules-js-functions@1.0.0~test: Args: [ '-c', 'mocha' ]
 12 silly lifecycle npm-modules-js-functions@1.0.0~test: Returned: code: 1  signal: null
 13 info lifecycle npm-modules-js-functions@1.0.0~test: Failed to exec test script
@@ -23,9 +26,9 @@
 14 verbose stack     at maybeClose (internal/child_process.js:885:16)
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 15 verbose pkgid npm-modules-js-functions@1.0.0
-16 verbose cwd /Users/jhallman5/Desktop/Coding/zesty-sambar
-17 error Darwin 15.6.0
-18 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "test"
+16 verbose cwd /Users/akuma/repos/-zesty-sambar
+17 error Darwin 16.1.0
+18 error argv "/usr/local/Cellar/node/7.2.0/bin/node" "/usr/local/bin/npm" "run" "test"
 19 error node v7.2.0
 20 error npm  v3.10.9
 21 error code ELIFECYCLE
