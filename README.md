@@ -1,8 +1,8 @@
-Zesty Sambar
+#Zesty Sambar
 
 Writing functions to learn how they operate.
 
-.capitalize - Capitalizes the first letter of a string.
+###.capitalize - Capitalizes the first letter of a string.
 
   ("the cake is a lie.").capitalize = "The cake is a lie."
   
