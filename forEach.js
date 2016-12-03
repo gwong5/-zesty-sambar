@@ -5,4 +5,4 @@ var forEach = function(object, fn){
   }
 }
 
-module.exports = forEach;
+module.exports = {forEach};
