@@ -18,7 +18,7 @@ Writing functions to learn how they operate.
 
 ###**.map** - Creates a new array of elements of a collection that have had a function applied to each.
 
-  array.map(plus1) = [2,3,4] (in a new array)
+  * array.map(plus1) = [2,3,4] (in a new array)
 
 
 ###**.nth** - Returns the Nth index of a given array.

@@ -10,4 +10,4 @@ var nth = function(array, number) {
     }
 }
 
-module.exports = nth;
+module.exports = {nth};
