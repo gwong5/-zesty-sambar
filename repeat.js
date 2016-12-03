@@ -9,4 +9,4 @@ var repeat = function(string, times) {
   return stringArr.join('');
   }
 
-module.exports = repeat;
+module.exports = {repeat};

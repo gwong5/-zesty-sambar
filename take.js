@@ -4,4 +4,4 @@ var take = function(array, number) {
   return array.slice(0, number)
 }
 
-module.exports = take;
+module.exports = {take};
